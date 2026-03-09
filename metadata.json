@@ -1,0 +1,9 @@
+{
+  "name": "Servitekno - Centros de Lavado",
+  "description": "Servitekno: Especialistas en la fabricación, instalación y gestión de centros de lavado de vehículos en autoservicio con tecnología de vanguardia.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

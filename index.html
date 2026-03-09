@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servitekno | Fabricación e Instalación de Centros de Lavado de Coches</title>
+    <meta name="description" content="Especialistas en la fabricación, instalación y gestión de centros de lavado de vehículos en autoservicio. Tecnología IoT, eficiencia hídrica y alta rentabilidad (ROI 18-24 meses).">
+    <meta name="keywords" content="centros de lavado de coches, autoservicio de lavado, inversión centros lavado, Servitekno, lavado sostenible, maquinaria lavado vehículos, rentabilidad centros lavado">
+    <meta name="author" content="Servitekno S.L.">
+    <link rel="canonical" href="https://servitekno.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://servitekno.com/">
+    <meta property="og:title" content="Servitekno | Centros de Lavado de Vanguardia">
+    <meta property="og:description" content="Líderes en fabricación e instalación de centros de lavado autoservicio con tecnología de vanguardia y máxima rentabilidad.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1605152276897-4f618f831968?q=80&w=1200">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://servitekno.com/">
+    <meta property="twitter:title" content="Servitekno | Centros de Lavado de Vanguardia">
+    <meta property="twitter:description" content="Líderes en fabricación e instalación de centros de lavado autoservicio con tecnología de vanguardia y máxima rentabilidad.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1605152276897-4f618f831968?q=80&w=1200">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Servitekno",
+      "image": "https://images.unsplash.com/photo-1605152276897-4f618f831968?q=80&w=1200",
+      "@id": "https://servitekno.com",
+      "url": "https://servitekno.com",
+      "telephone": "+34900123456",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle de la Innovación, 42",
+        "addressLocality": "Madrid",
+        "postalCode": "28001",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4168,
+        "longitude": -3.6924
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/servitekno",
+        "https://www.instagram.com/servitekno"
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+        }
+        /* Ajuste para que el mapa se vea bien */
+        #map-container {
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
